@@ -1,10 +1,10 @@
 # Retrieval-Augmented Generation
 
-**A Hands-On Guide to Grounding LLMs with Your Own Data**
+**An Engineer's Guide to Building RAG Systems with Your Own Data**
 
 By [Jeroen Herczeg](https://github.com/retrieval-augmented-generation)
 
-This repository contains the code and document corpus for the book *Retrieval-Augmented Generation: A Hands-On Guide to Grounding LLMs with Your Own Data*. Every chapter has a corresponding folder with runnable scripts that build on a single running example — the Acme Corp knowledge base.
+This repository contains the code and document corpus for the book *Retrieval-Augmented Generation: An Engineer's Guide to Building RAG Systems with Your Own Data*. Every chapter has a corresponding folder with runnable scripts that build on a single running example — the Acme Corp knowledge base.
 
 ## Quick Start
 
