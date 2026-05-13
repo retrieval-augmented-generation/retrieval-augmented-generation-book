@@ -1,0 +1,6 @@
+{"query": "What is the HIPAA Section 164.312(a)(1) requirement?", "canonical_sources": ["hipaa_compliance_overview.md"], "should_answer": true}
+{"query": "What is the password rotation policy?", "canonical_sources": ["it_security_policy.pdf"], "should_answer": true}
+{"query": "What happens to my unused vacation when I leave the company?", "canonical_sources": ["vacation_policy.md", "employee_handbook.pdf"], "should_answer": true}
+{"query": "What is the bereavement leave policy?", "canonical_sources": ["bereavement_leave_policy.md"], "should_answer": true}
+{"query": "What is the enterprise SLA uptime guarantee?", "canonical_sources": ["enterprise_sla.pdf", "sla_dashboard_guide.md"], "should_answer": true}
+{"query": "What is Acme Corp's cryptocurrency policy?", "canonical_sources": [], "should_answer": false}

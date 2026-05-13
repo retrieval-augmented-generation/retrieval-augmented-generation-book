@@ -1,0 +1,46 @@
+[
+  {
+    "config": "Semantic only",
+    "candidate_recall": 1.0,
+    "context_recall": 1.0,
+    "pool_mrr": 0.7666666666666666,
+    "rerank_mrr": 0.7666666666666666,
+    "faithfulness": 1.0,
+    "relevance": 0.8333333333333334,
+    "citation_accuracy": 0.8333333333333334,
+    "avg_latency_s": 1.396315889491234
+  },
+  {
+    "config": "Hybrid interleave",
+    "candidate_recall": 1.0,
+    "context_recall": 1.0,
+    "pool_mrr": 0.8,
+    "rerank_mrr": 0.8,
+    "faithfulness": 1.0,
+    "relevance": 1.0,
+    "citation_accuracy": 1.0,
+    "avg_latency_s": 1.332822199484023
+  },
+  {
+    "config": "Hybrid + rerank",
+    "candidate_recall": 1.0,
+    "context_recall": 1.0,
+    "pool_mrr": 0.8,
+    "rerank_mrr": 1.0,
+    "faithfulness": 1.0,
+    "relevance": 1.0,
+    "citation_accuracy": 0.7222222222222223,
+    "avg_latency_s": 42.950559559530426
+  },
+  {
+    "config": "Full + rewrite",
+    "candidate_recall": 1.0,
+    "context_recall": 1.0,
+    "pool_mrr": 0.7666666666666666,
+    "rerank_mrr": 0.8,
+    "faithfulness": 1.0,
+    "relevance": 1.0,
+    "citation_accuracy": 0.8333333333333334,
+    "avg_latency_s": 35.72373775980668
+  }
+]

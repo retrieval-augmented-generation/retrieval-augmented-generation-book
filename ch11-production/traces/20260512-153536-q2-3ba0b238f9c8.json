@@ -1,0 +1,48 @@
+{
+  "query": "What is the enterprise SLA uptime guarantee?",
+  "trace": {
+    "trace_id": "3ba0b238f9c8",
+    "stages": {
+      "request.start": {
+        "query": "What is the enterprise SLA uptime guarantee?",
+        "embedding_model": "all-MiniLM-L6-v2",
+        "reranker_model": "BAAI/bge-reranker-v2-m3",
+        "llm_model": "gpt-4o-mini",
+        "candidate_k": 20,
+        "context_n": 5,
+        "use_reranker": true,
+        "use_query_transform": false
+      },
+      "retrieval.keyword": {
+        "latency_ms": 10.5
+      },
+      "retrieval.semantic": {
+        "latency_ms": 28.9
+      },
+      "retrieval.merge": {
+        "keyword_count": 4,
+        "semantic_count": 20,
+        "merged_count": 21,
+        "keyword_error": null
+      },
+      "select.rerank": {
+        "input_count": 21,
+        "output_count": 5,
+        "latency_ms": 75040.1
+      },
+      "generation.llm_call": {
+        "context_count": 5,
+        "latency_ms": 2108.1
+      },
+      "generation.complete": {
+        "input_tokens": 2307,
+        "output_tokens": 97,
+        "citation_count": 1,
+        "citation_valid": 0,
+        "citation_accuracy": 0.0
+      }
+    },
+    "total_latency_ms": 77187.6
+  },
+  "answer": "Acme Corp guarantees 99.95% uptime for all API endpoints covered under this SLA, measured on a calendar-month basis. Uptime is calculated as: Uptime % = ((Total Minutes in Month \u2212 Downtime Minutes) / Total Minutes in Month) \u00d7 100. A month with 43,200 total minutes (30 days) permits a maximum of 21.6 minutes of downtime before the guarantee is breached [enterprise_sla.pdf#chunk-1.1]."
+}
